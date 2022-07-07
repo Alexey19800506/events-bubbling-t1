@@ -28,7 +28,7 @@ bntClear.addEventListener('click', () => {
     const eventsListElem = document.querySelector('.events-list');
     eventsListElem.innerHTML = '';
 });
-
+const bntClear = document.querySelector('.clear-btn');
 const btnAttachHand = document.querySelector('.attach-handlers-btn');
 const btnRemoteHand = document.querySelector('.remove-handlers-btn');
 btnRemoteHand.addEventListener('click', () => {
